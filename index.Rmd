@@ -247,8 +247,8 @@ knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publi
 ## What to share
 
 - Data
-- [Displays](https://nyu.databrary.org/volume/144), [materials](https://nyu.databrary.org/volume/248)
 - Analysis code
+- [Displays](https://nyu.databrary.org/volume/144), [materials](https://nyu.databrary.org/volume/248)
 - [Procedure manuals](https://play-project.org)
 
 ## How to share
