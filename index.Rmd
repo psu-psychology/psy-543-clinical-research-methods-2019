@@ -50,21 +50,17 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE,
 
 - Prelude
 - Some questions to ponder
-- The "ethos" of science
-- Many solutions
-- An open science future...
 
 ---
 
-Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, N. P. du, Simonsohn, U., et al. (2017). A manifesto for reproducible science. *Nature Human Behaviour*, *1*, 0021. Retrieved January 10, 2017, from http://www.nature.com/articles/s41562-016-0021
+- Discuss [Munafò et al. 2017](http://www.nature.com/articles/s41562-016-0021)
+- Discuss [Silberzahn et al. 2018](https://doi.org/10.1177/2515245917747646)
+- Discuss [Gilmore et al. 2018](https://doi.org/10.1177/2515245917746500)
 
 ---
 
-Silberzahn, R., Uhlmann, E. L., Martin, D. P., Anselmi, P., Aust, F., Awtrey, E., Bahník, Š., et al. (2018). Many analysts, one data set: Making transparent how variations in analytic choices affect results. *Advances in Methods and Practices in Psychological Science*, 1(3), 337–356. SAGE Publications Inc. Retrieved from https://doi.org/10.1177/2515245917747646
-
----
-
-Gilmore, R. O., Kennedy, J. L., & Adolph, K. E. (2018). Practical solutions for sharing data and materials from psychological research. *Advances in Methods and Practices in Psychological Science*, *1*(1), 121–130. SAGE Publications Inc. Retrieved from https://doi.org/10.1177/2515245917746500
+- Tools for reproducible science
+- An open science future
 
 ---
 
@@ -117,65 +113,7 @@ knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36718.1464174471!/i
 knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36719.1464174488!/image/reproducibility-graphic-online4.jpg_gen/derivatives/landscape_630/reproducibility-graphic-online4.jpg")
 ```
 
----
-
-```{r, fig.cap="[Munafo et al. 2017](http://doi.org/10.1038/s41562-016-0021)"}
-knitr::include_graphics("http://www.nature.com/article-assets/npg/nathumbehav/2017/s41562-016-0021/images_hires/w926/s41562-016-0021-f1.jpg")
-```
-
-# The 'Ethos' of Science
-
-## Robert Merton
-
-```{r, fig.cap="Wikipedia"}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg")
-```
-
----
-
-```{r}
-knitr::include_graphics("https://www.klinebooks.com/pictures/28217.jpg?v=1428617395")
-```
-
----
-
->- **universalism**: scientific validity is independent of sociopolitical status/personal attributes of its participants
->- **communalism**: common ownership of scientific goods (intellectual property)
->- **disinterestedness**: scientific institutions benefit a common scientific enterprise, not specific individuals
->- **organized skepticism**: claims should be exposed to critical scrutiny before being accepted
-
-## Are these norms at-risk? How or when?
-
----
-
-```{r}
-knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg")
-```
-
----
-
-> "*...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s.*"
-
-<small>[Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)</small>
-
----
-
-> "*The toothbrush culture undermines the building of a genuinely cumulative science, encouraging more parallel play and solo game playing, rather than building on each other’s directly relevant best work.*"
-
-<small>[Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)</small>
-
-# Solutions
-
----
-
-- What is reproducibility?
-- What is version control?
-- Where/how to share data?
-- Tools for reproducible workflows
-- What's preregistration about?
-- What are these big replication studies about?
-
-## What is reproducibility?
+## What is reproducibility, anyway?
 
 ## *Methods* reproducibility
 
@@ -200,6 +138,146 @@ knitr::include_graphics("http://lh6.ggpht.com/_KVa1Tk_k1BU/TTjL-RSY_eI/AAAAAAAAB
 - Same inferences from one or more studies or reanalyses
 
 <small>([Goodman et al., 2016](http://doi.org/10.1126/scitranslmed.aaf5027))</small>
+
+## Is scientific research different from other (flawed) human endeavors?
+
+## Robert Merton
+
+```{r, fig.cap="Wikipedia"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/0/08/Robert_K_Merton.jpg")
+```
+
+---
+
+```{r}
+knitr::include_graphics("https://www.klinebooks.com/pictures/28217.jpg?v=1428617395")
+```
+
+---
+
+>- **universalism**: scientific validity is independent of sociopolitical status/personal attributes of its participants
+>- **communalism**: common ownership of scientific goods (intellectual property)
+>- **disinterestedness**: scientific institutions benefit a common scientific enterprise, not specific individuals
+>- **organized skepticism**: claims should be exposed to critical scrutiny before being accepted
+
+## Are these norms at-risk?
+
+---
+
+```{r}
+knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Bad-is-it-to-Share-a-Toothbrush-159311405-ABykov-760x506.jpg")
+```
+
+---
+
+> "*...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s.*"
+
+<small>[Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)</small>
+
+---
+
+> "*The toothbrush culture undermines the building of a genuinely cumulative science, encouraging more parallel play and solo game playing, rather than building on each other’s directly relevant best work.*"
+
+<small>[Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)</small>
+
+# [Munafò et al. 2017](http://www.nature.com/articles/s41562-016-0021)
+
+---
+
+```{r, fig.cap="[Munafo et al. 2017](http://doi.org/10.1038/s41562-016-0021)"}
+knitr::include_graphics("http://www.nature.com/article-assets/npg/nathumbehav/2017/s41562-016-0021/images_hires/w926/s41562-016-0021-f1.jpg")
+```
+
+---
+
+<https://www.nature.com/articles/s41562-016-0021/tables/1>
+
+## Do these issues affect your research?
+
+# [Silberzahn et al. 2018](https://doi.org/10.1177/2515245917747646)
+
+---
+
+>"*Twenty-nine teams involving 61 analysts used the same data set to address the same research question: whether soccer referees are more likely to give red cards to dark-skin-toned players than to light-skin-toned players.*"
+
+## How much did results vary between different teams using the same data to test the same hypothesis?
+
+---
+
+```{r, fig.cap="[Silberzahn et al. 2018](https://doi.org/10.1177/2515245917747646)"}
+knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/large/10.1177_2515245917747646-table4.jpeg")
+```
+
+## What were the consequences of this variability in analytic approaches?
+
+---
+
+```{r, fig.cap="[Silberzahn et al. 2018](https://doi.org/10.1177/2515245917747646)"}
+knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/medium/10.1177_2515245917747646-fig2.gif")
+```
+
+## Did the analysts’ beliefs regarding the hypothesis change over time?
+
+---
+
+```{r, fig.cap="[Silberzahn et al. 2018](https://doi.org/10.1177/2515245917747646)"}
+knitr::include_graphics("https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ampa/2018/ampa_1_3/2515245917747646/20181024/images/medium/10.1177_2515245917747646-fig4.gif")
+```
+
+---
+
+>"*Here, we have demonstrated that as a result of researchers’ choices and assumptions during analysis, variation in estimated effect sizes can emerge even when analyses use the same data. *"
+
+---
+
+>"*These findings suggest that significant variation in the results of analyses of complex data may be difficult to avoid, even by experts with honest intentions.*"
+
+---
+
+>"*The best defense against subjectivity in science is to expose it.*"
+
+---
+
+>"*Transparency in data, methods, and process gives the rest of the community opportunity to see the decisions, question them, offer alternatives, and test these alternatives in further research.*"
+
+## Do related issues affect *your* research?
+
+# Practical Solutions
+
+## What to share
+
+- Data
+- [Displays](https://nyu.databrary.org/volume/144), [materials](https://nyu.databrary.org/volume/248)
+- Analysis code
+- [Procedure manuals](https://play-project.org)
+
+## How to share
+
+- With ethics board/IRB approval
+- With participant permission
+
+## Where to share data?
+
+- Lab website vs.
+- Supplemental information with journal article vs.
+- Data repository
+
+---
+
+- [Open Science Framework (OSF)](http://osf.io)
+- [ICPSR](https://www.icpsr.umich.edu/icpsrweb/)
+- [Databrary](http://databrary.org)
+- [OpenNeuro](http://openneuro.org)
+
+## When to share
+
+- When you are ready
+- Paper goes out for review or is published
+- Grant ends
+
+## How do these suggestions impact your research?
+    
+# Tools for reproducible science
 
 ## What is version control and why use it?
 
@@ -237,29 +315,6 @@ vs.
 knitr::include_graphics("img/github-gilmorelab.jpg")
 ```
 
-# Where/how to share data?
-
----
-
-- Lab website vs.
-- Supplemental information with journal article
-
-## Data repository
-
-- [Open Science Framework (OSF)](http://osf.io)
-- [ICPSR](https://www.icpsr.umich.edu/icpsrweb/)
-- [Databrary](http://databrary.org)
-- [OpenNeuro](http://openneuro.org)
-    
----
-
-```{r}
-knitr::include_graphics("img/gilmore-practical-solutions.jpg")
-```
-
-
-# Reproducible workflows
-
 ## FAIR data principles
 
 Data should be...
@@ -278,6 +333,12 @@ Data should be...
 - Well-documented
 - Kind to your future (forgetful) self
 - Transparent to me & colleagues == transparent to others
+
+## Scripted analyses
+
+- SPSS, SAS, R, Python
+- [Jupyter notebooks](https://jupyter.org/)
+- [Rmarkdown](https://rmarkdown.rstudio.com) via RStudio
 
 ---
 
@@ -318,15 +379,6 @@ source("R/Visualize_data.R")
 ...
 ```
 
-# Tools for reproducible workflows
-
-## Version control
-
----
-
-- Scripted analyses (SPSS, SAS, R, Python)
-- [Jupyter notebooks](https://jupyter.org/)
-- [Rmarkdown](https://rmarkdown.rstudio.com) via RStudio
 
 ## But my SPSS syntax file already does this
     
@@ -377,7 +429,7 @@ The mean is `r mean(x)`, the range is [`r min(x)`, `r max(x)`].
 - Scriptable timelines from Datavyu files: [Example](https://github.com/PLAY-behaviorome/video-coding/blob/master/img/NYU019/time-line-plot-00-60-1.png?raw=true) | [Rmd](https://raw.githubusercontent.com/PLAY-behaviorome/video-coding/master/timeline.Rmd) 
 - Papers: [PDF](https://github.com/psu-psychology/r-bootcamp-2018/blob/master/talks/gilmore-hallquist-bootcamp-2018-papaja.pdf) | [Rmd](https://raw.githubusercontent.com/psu-psychology/r-bootcamp-2018/master/talks/gilmore-hallquist-bootcamp-2018-papaja.Rmd)
 
-# What are registered reports and pre-registration about?
+## Registered reports and pre-registration
 
 ---
 
@@ -430,7 +482,7 @@ knitr::include_graphics("img/as-predicted-4.jpg")
 - Susan Goldin-Meadow (skeptic), ["Why pregistration makes me nervous"](https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous)
 - Mike Frank (former skeptic, now advocate), ["Pregister everything"](http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html)
 
-# What are these big replication studies about?
+## Large-scale replication studies
 
 ## Studies are underpowered {.smaller}
 
@@ -528,14 +580,14 @@ rogilmore@psu.edu
 
 <https://gilmore-lab.github.io>
 
-<https://gilmore-lab.github.io/2019-10-31-ist-597.004/>
+<https://psu-psychology.github.io/psy-543-clinical-research-methods-2019/>
 
 ---
 
 ## Stack
 
 This talk was produced on `r Sys.Date()` in [RStudio](http://rstudio.com) version using R Markdown and the reveal.JS framework.
-The code and materials used to generate the slides may be found at <https://github.com/gilmore-lab/2019-10-31-ist-597.004/>.
+The code and materials used to generate the slides may be found at <https://psu-psychology.github.io/psy-543-clinical-research-methods-2019/>.
 Information about the R Session that produced the code is as follows:
 
 ```{r session-info}
