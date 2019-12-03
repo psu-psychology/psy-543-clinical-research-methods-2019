@@ -1,6 +1,5 @@
 ---
 title: "Reproducible and robust psychological science"
-subtitle: "PSY 543 Fall 2019"
 output: 
   revealjs::revealjs_presentation:
     css: css/styles.css
@@ -593,4 +592,3 @@ Information about the R Session that produced the code is as follows:
 ```{r session-info}
 sessionInfo()
 ```
-
