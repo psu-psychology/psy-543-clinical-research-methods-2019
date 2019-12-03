@@ -119,7 +119,7 @@ knitr::include_graphics("http://www.nature.com/polopoly_fs/7.36719.1464174488!/i
 - Enough details about materials & methods recorded (& reported)
 - Same results with same materials & methods
 
-<small>([Goodman et al., 2016](http://doi.org/10.1126/scitranslmed.aaf5027))</small>
+<small>[Goodman et al., 2016](http://doi.org/10.1126/scitranslmed.aaf5027)</small>
 
 ---
 
@@ -130,13 +130,14 @@ knitr::include_graphics("http://lh6.ggpht.com/_KVa1Tk_k1BU/TTjL-RSY_eI/AAAAAAAAB
 ## *Results* reproducibility
 
 - Same results from independent study
+
 <small>([Goodman et al., 2016](http://doi.org/10.1126/scitranslmed.aaf5027))</small>
 
 ## *Inferential* reproducibility
 
 - Same inferences from one or more studies or reanalyses
 
-<small>([Goodman et al., 2016](http://doi.org/10.1126/scitranslmed.aaf5027))</small>
+<small>[Goodman et al., 2016](http://doi.org/10.1126/scitranslmed.aaf5027)</small>
 
 ## Is scientific research different from other (flawed) human endeavors?
 
@@ -171,7 +172,7 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 > "*...psychologists tend to treat other peoples’ theories like toothbrushes; no self-respecting individual wants to use anyone else’s.*"
 
-<small>[Mischel, 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)</small>
+<small>[Mischel 2009](https://www.psychologicalscience.org/observer/becoming-a-cumulative-science)</small>
 
 ---
 
@@ -183,7 +184,7 @@ knitr::include_graphics("https://www.rd.com/wp-content/uploads/2017/02/01-How-Ba
 
 ---
 
-```{r, fig.cap="[Munafo et al. 2017](http://doi.org/10.1038/s41562-016-0021)"}
+```{r, fig.cap="[Munafò et al. 2017](http://doi.org/10.1038/s41562-016-0021)"}
 knitr::include_graphics("http://www.nature.com/article-assets/npg/nathumbehav/2017/s41562-016-0021/images_hires/w926/s41562-016-0021-f1.jpg")
 ```
 
